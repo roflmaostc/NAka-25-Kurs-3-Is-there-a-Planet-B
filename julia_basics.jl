@@ -16,9 +16,6 @@ using PlutoUI
 # ╔═╡ 032fa5b6-f32f-4be6-a237-947363acf28e
 using Plots, ImageShow, FileIO, ImageIO, Images, FourierTools, DifferentialEquations, Makie, GLMakie,FFTW, ABCDMatrixOptics, Unitful
 
-# ╔═╡ 561a09dd-667c-44e1-a8f8-08c9ac877e6b
-# hier installieren wir automatisch einige Pakete, das kann etwa 15 Minuten dauern
-
 # ╔═╡ 4d90a5e2-8a74-403d-bd90-9bc5bcd8201b
 TableOfContents()
 
@@ -695,7 +692,6 @@ end
 # ╔═╡ Cell order:
 # ╠═58efddbe-caf1-499f-ad0b-524ba078d180
 # ╠═f0e20c4b-3f9d-46c6-b0e8-a2facebd795a
-# ╠═561a09dd-667c-44e1-a8f8-08c9ac877e6b
 # ╠═032fa5b6-f32f-4be6-a237-947363acf28e
 # ╠═4d90a5e2-8a74-403d-bd90-9bc5bcd8201b
 # ╠═56329202-c5bb-49fb-a82b-abf261f35f27
