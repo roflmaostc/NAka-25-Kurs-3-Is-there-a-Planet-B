@@ -1,7 +1,7 @@
 # Installation von Julia 1.11
 Besuche folgende Website: https://julialang.org/install/
 
-Installiere dann `juliaup`, welches dann `julia` für dich installiert.
+Installiere dann `juliaup`, welches dann `julia` für dich installiert. Wir benutzen Julia 1.11.6
 
 
 ## Speichern der Dateien
@@ -13,7 +13,7 @@ Das gleiche machst du mit den `Project.toml` und `Manifest.toml` Dateien.
 ## Starten von Julia
 Suche nun über deinen program launcher `julia`
 
-Ein kleines schwarzes Fenster sollte erscheinen
+Ein kleines schwarzes Fenster sollte erscheinen. Navigiere mit `cd` (das ist im Prinzip ein file browser der den Ort ändert) dann zu deinem `NAka_25` Ordner.
 
 ```julia-repl
                _
