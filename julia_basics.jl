@@ -413,6 +413,17 @@ Du kannst die Werte von Elementen in einem Array ändern, indem du ihnen über i
 """
 
 
+# ╔═╡ b6b7bbd9-1922-4aa8-a446-a1e76f498f25
+begin
+	arr2 = [1,2,3,4,5]
+	arr2[1] = 10
+	# end ist der letzte eintrag des arrays
+	arr2[end] = 50
+	arr2[2] = 20
+	
+	println(arr2)
+end
+
 # ╔═╡ 4ce39d71-fab9-4825-819e-a44c9ce35def
 md"""
 ### Nützliche Funktionen für Arrays
@@ -746,12 +757,12 @@ end
 # ╠═95c4412b-73b1-4f0b-b2d5-a3647a6d48f1
 # ╠═b4ecd75c-87b0-4837-b7ea-21169b991f66
 # ╠═a29f31b9-615e-43e7-950c-75dec7776c34
-# ╠═1d12959e-d7e5-47ec-8c84-68e47fe0395d
+# ╟─1d12959e-d7e5-47ec-8c84-68e47fe0395d
 # ╠═fd536b7b-73ea-4a79-95df-19add3b164e5
 # ╟─aa2feec1-1adb-4e0f-b766-859f95bf4793
 # ╠═bd8dcb2b-7640-4f97-8389-ec619e2e006d
 # ╠═750888cb-4f04-480c-b4fd-bdb0d445c687
-# ╠═4c5c99f2-c279-46f0-9eb3-7c58df28dd6f
+# ╟─4c5c99f2-c279-46f0-9eb3-7c58df28dd6f
 # ╠═f5e38db1-649e-438a-ac96-bf31995b4377
 # ╠═a8b14ccc-e2ce-4055-8b8a-d53dd003574b
 # ╠═f376df2d-2bf8-4c68-bb13-8369593476b9
@@ -762,7 +773,7 @@ end
 # ╠═02cf8f58-48e9-421d-9c9e-efea9f43b218
 # ╠═39ddce72-811f-4f7e-9be0-cf7373d031a2
 # ╠═b7d75a50-f705-4242-b7b7-43e0e1d34c78
-# ╠═c6881807-7c12-4784-9e75-a0ed2d21acfb
+# ╟─c6881807-7c12-4784-9e75-a0ed2d21acfb
 # ╠═4c36ab27-0bb3-4360-984c-5bb1f0ff7c79
 # ╠═f8ac6e92-987e-439b-b5c0-52710eb3e0b2
 # ╠═fa1d4666-52dd-4127-a6f7-73b1daeb9b54
@@ -772,7 +783,8 @@ end
 # ╠═9f056721-27da-47d5-9a5e-5563b28e6e62
 # ╠═004c9ae0-138f-4076-816e-1eafa5e1bc3b
 # ╠═6196c98a-4feb-4a2f-821f-4d261bfd9dd2
-# ╠═82577b69-837a-43ee-bb91-e64b2042df71
+# ╟─82577b69-837a-43ee-bb91-e64b2042df71
+# ╠═b6b7bbd9-1922-4aa8-a446-a1e76f498f25
 # ╟─4ce39d71-fab9-4825-819e-a44c9ce35def
 # ╠═271684b8-0ed5-42c3-b150-61ab99aab73d
 # ╠═20db471d-6a46-43a0-890b-a45d9619b149
