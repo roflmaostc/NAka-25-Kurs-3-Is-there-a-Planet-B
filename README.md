@@ -25,8 +25,16 @@ Ein kleines schwarzes Fenster sollte erscheinen. Navigiere mit `cd` (das ist im 
  _/ |\__'_|_|_|\__'_|  |  Official https://julialang.org/ release
 |__/                   |
 
+
 julia> cd("/tmp/NAka_25/")
 
+julia> readdir()
+3-element Vector{String}:
+ "Manifest.toml"
+ "Project.toml"
+ "julia_basics.jl"
+
+# nur wenn die files erfolgreich angezeigt werden, führst du die nächste Zeile aus
 julia> using Pkg; Pkg.activate("."); Pkg.instantiate(); using Pluto; Pluto.run()
 ```
 
