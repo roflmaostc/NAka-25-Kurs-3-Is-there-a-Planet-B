@@ -1,5 +1,5 @@
 # Installation von Julia 1.11
-Hier ein kleines Video zur Installation:
+Hier ein kleines Video zur Installation. Manche Schritte benötigen einige Minuten, ich habe diese aus dem Video herausgeschnitten:
 
 https://github.com/user-attachments/assets/a37ba044-b114-4d9e-bce7-d88625ad6a44
 
