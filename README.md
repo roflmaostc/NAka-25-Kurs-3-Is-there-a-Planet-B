@@ -1,4 +1,13 @@
 # Installation von Julia 1.11
+Hier ein kleines Video zur Installation:
+
+https://github.com/roflmaostc/NAka-25-Kurs-3-Is-there-a-Planet-B/blob/main/installation.mp4
+
+
+
+# Installation von Julia 1.11 - voller Guide
+
+
 Besuche folgende Website: https://julialang.org/install/
 
 Installiere dann `juliaup`, welches dann `julia` für dich installiert. Wir benutzen Julia 1.11.6
@@ -12,6 +21,11 @@ Das gleiche machst du mit den `Project.toml` und `Manifest.toml` Dateien.
 
 ## Starten von Julia
 Suche nun über deinen program launcher `julia`
+
+
+
+https://github.com/user-attachments/assets/a37ba044-b114-4d9e-bce7-d88625ad6a44
+
 
 Ein kleines schwarzes Fenster sollte erscheinen. Navigiere mit `cd` (das ist im Prinzip ein file browser der den Ort ändert) dann zu deinem `NAka_25` Ordner.
 
