@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.13
+# v0.20.16
 
 using Markdown
 using InteractiveUtils
@@ -14,7 +14,7 @@ end
 using PlutoUI
 
 # ╔═╡ 032fa5b6-f32f-4be6-a237-947363acf28e
-using Plots, ImageShow, FileIO, ImageIO, Images, FourierTools, DifferentialEquations, Makie, GLMakie,FFTW, ABCDMatrixOptics, Unitful
+using Plots, ImageShow, FileIO, ImageIO, Images, FourierTools, FFTW, ABCDMatrixOptics, Unitful
 
 # ╔═╡ 4d90a5e2-8a74-403d-bd90-9bc5bcd8201b
 TableOfContents()
