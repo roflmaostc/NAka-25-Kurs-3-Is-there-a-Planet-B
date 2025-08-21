@@ -1,3 +1,8 @@
+# Interessante Links
+* [NASA Exoplanet Archive](https://exoplanetarchive.ipac.caltech.edu/)
+
+
+
 # Installation von Julia 1.11
 Hier ein kleines Video zur Installation. Manche Schritte benötigen einige Minuten, ich habe diese aus dem Video herausgeschnitten:
 
