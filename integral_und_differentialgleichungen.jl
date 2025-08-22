@@ -218,6 +218,7 @@ function euler_freier_fall(x0, v0, a, T; N=200)
 	
 
 	for t in ts
+		# nehme das vorherige Elemente der Geschwindigkeit und des Orts
 		v_alt = vs[end]
 		x_alt = xs[end]
 		
