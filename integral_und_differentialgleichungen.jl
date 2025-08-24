@@ -97,16 +97,38 @@ Berechne die Integrale von oben mit der numerischen Rechteckregel.
 
 # ╔═╡ 4b79770b-c386-433f-a0e4-41a5928a3632
 function integrate_numerically(f, a, b, N)
+	# init of summ
+	summe = 0.0
 
+	for i in 1:N
+		kleiner_schritt = (b-a) / N
+		# berechne kleine Rechtecke
+		positions_des_rechtecks = a + i * kleiner_schritt
+
+		# wert der funktion
+		wert_der_funktion = f(positions_des_rechtecks)
+
+		# flaeche des rechtecks?
+		breite_des_rechtecks = (b-a) / N
+		
+		flaeche = wert_der_funktion * breite_des_rechtecks
+		# summiere kleine rechtecke auf
+		println(flaeche)
+		
+		summe += flaeche
+	end
 	
-	return 0.0
+	# gib die summe zurück
+	return summe
 end
 
 # ╔═╡ 346ffc87-cb0a-41b7-8eba-46dd522cb0f1
-
+function beispiel(x)
+	return x^3 - x + 10
+end
 
 # ╔═╡ 46c61415-67e0-4155-9512-88af10ab4cc2
-
+integrate_numerically(beispiel, -1, 3, 200)
 
 # ╔═╡ db0c4a6b-616d-49ab-80c6-03958a50a11f
 md""" # Gravitationskraft
